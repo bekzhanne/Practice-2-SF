@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.example.practice.config.AppProperties",
+      "sourceType": "com.example.practice.config.AppProperties"
+    },
+    {
+      "name": "app.notification",
+      "type": "com.example.practice.config.AppProperties$Notification",
+      "sourceType": "com.example.practice.config.AppProperties",
+      "sourceMethod": "getNotification()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.description",
+      "type": "java.lang.String",
+      "sourceType": "com.example.practice.config.AppProperties"
+    },
+    {
+      "name": "app.max-tasks",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.practice.config.AppProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.practice.config.AppProperties"
+    },
+    {
+      "name": "app.notification.type",
+      "type": "java.lang.String",
+      "sourceType": "com.example.practice.config.AppProperties$Notification"
+    }
+  ],
+  "hints": []
+}

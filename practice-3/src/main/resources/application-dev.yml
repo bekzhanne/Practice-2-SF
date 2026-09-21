@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: INFO
+    com.example.practice: DEBUG
+
+app:
+  max-tasks: 10
+  notification:
+    type: console

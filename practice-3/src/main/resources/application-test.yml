@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: WARN
+
+app:
+  name: "Task Manager (TEST)"
+  max-tasks: 5
+  notification:
+    type: console

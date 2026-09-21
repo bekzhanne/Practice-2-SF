@@ -1,0 +1,10 @@
+# Действует только когда активен профиль "test".
+# Spring Boot подставляет его сам в тестах с @ActiveProfiles("test").
+
+logging:
+  level:
+    root: WARN
+
+app:
+  name: "Task Manager (TEST)"
+  max-tasks: 5

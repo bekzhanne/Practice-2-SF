@@ -1,0 +1,10 @@
+# Действует только когда активен профиль "dev".
+# Активируется: spring.profiles.active=dev (или SPRING_PROFILES_ACTIVE=dev)
+
+logging:
+  level:
+    root: INFO
+    com.example.practice: DEBUG
+
+app:
+  max-tasks: 10   # в разработке ограничиваем список для удобства ручных проверок
