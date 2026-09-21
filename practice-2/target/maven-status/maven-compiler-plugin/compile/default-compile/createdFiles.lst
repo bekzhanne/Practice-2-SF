@@ -1,9 +1,0 @@
-com\example\practice\model\Task.class
-com\example\practice\controller\TaskController.class
-com\example\practice\service\TaskServiceImpl.class
-com\example\practice\repository\TaskRepository.class
-com\example\practice\service\TaskService.class
-com\example\practice\PracticeApplication.class
-com\example\practice\config\AppProperties.class
-com\example\practice\repository\InMemoryTaskRepository.class
-META-INF\spring-configuration-metadata.json
